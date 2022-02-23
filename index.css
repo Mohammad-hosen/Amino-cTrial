@@ -1,0 +1,123 @@
+/*Global*/
+
+body {
+  background-color: #18191D;
+  margin: 0;
+  padding: 0;
+  font-family: Graphik;
+  color: white;
+}
+
+.body-margin {
+  margin: 0 5vw;
+}
+
+.current {
+  padding: 10px 17px;
+  background-color: #7E78D2;
+  border-radius: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top:10px;
+  background: #212226;
+  margin-top: 0;
+  padding: 6px;
+}
+
+.margin {
+  margin: 8vw;
+}
+
+
+.big-margin{
+  margin:0 27vw;
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url(GraphikRegular.otf);
+}
+
+@font-face {
+  font-family: Cousine;
+  src: url(Cousine-Regular.ttf);
+}
+@font-face{
+  font-family: Canel;
+  src:url(Canela-Regular.ttf);
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background: #353A40;
+  border: none;
+  margin: 30px 0;
+}
+
+
+h1{
+  font-family: Canel;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 75px;
+  letter-spacing:.09em;
+  text-align: center;
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color:#18191D;
+  margin-top: 20%;
+  font-variant: small-caps;
+}
+
+
+ul{
+  list-style-type: none;
+  
+}
+li{
+  font-size: 10px;
+  font-weight: 600;
+  display: inline;
+  letter-spacing: 1px;
+
+}
+
+li a{
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+p{
+  text-align: justify;
+  color: #7c8a97;
+  font-size:16px;
+  font-variant:small-caps;
+  margin-top: 100px;
+}
+
+a.anchor{
+  margin-top:20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-variant: small-caps;
+  color:black;
+  background: white;
+  padding: 9px;
+  border: none;
+  border-radius:5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#left{
+  margin:0 4px 0 0;
+}
+
+img{
+  margin-top: 6px;
+}
